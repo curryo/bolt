@@ -128,24 +128,13 @@ a {
 }
 
 .works_item {
-  margin-left: 100px;
-  opacity: 0.7;
   transition: all 0.3s;
   display: inline-block;
-  margin-left: 100px;
-  max-width: 100%;
 }
 
-.works_item:nth-child(3n+1) {
-  margin-left: 0;
-} 
-
-.works_item:nth-child(n+4){
-  margin-top: 80px;
-}
 
 .works_item:hover {
-  opacity: 1.0;
+  opacity: 0.7;
 }
 
 .mail {
@@ -156,7 +145,6 @@ a {
 .mail_text  {
   display: inline-block;
   font-size: 20px;
-  word-break: break-all;
 }
 
 .mail_btn {
@@ -296,11 +284,10 @@ a {
 
   .works_item {
     display: block;
-    margin: 0 auto;
   }
 
-  .works_item:nth-child(n+5) {
-    margin-top: 0;
+  .works_item:nth-child(4) {
+    margin-top: 80px;
   } 
 
   .mail {
@@ -376,8 +363,8 @@ a {
     margin: 0 auto;
   }
 
-  .works_item:nth-child(n+5) {
-    margin-top: 0;
+  .works_item:nth-child(4) {
+    margin-top: 80px;
   } 
 
   .mail {
@@ -416,8 +403,27 @@ a {
 ------------------------------ */
 @media screen and (min-width:1200px) {
   
+  .mail_text {
+    width: 600px;
+  }
+
   .right_text {
     margin-left: 100px;
   }
+  .works_item {
+    margin-left: 100px; 
+  }
 
+  .works_item:nth-child(3n+1) {
+    margin-left: 0;
+  } 
+  
+  .works_item:nth-child(n+4){
+    margin-top: 80px;
+  }
+
+  .mail_text  {
+    margin-left: 50px;
+  }
 }
+
