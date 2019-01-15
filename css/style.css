@@ -295,6 +295,10 @@ a {
     margin-top: 80px;
   } 
 
+  .works_item:first-child {
+    margin-top: 0;
+  }
+
   .mail {
     margin-top: 80px;
     text-align: center;
@@ -378,7 +382,7 @@ a {
   .works_item:first-child {
     margin-top: 0;
   }
-
+  
   .mail {
     margin-top: 80px;
     text-align: center;
@@ -428,10 +432,6 @@ a {
   .works_item:nth-child(3n+1) {
     margin-left: 0;
   } 
-
-  .works_item:first-child {
-    margin-top: 0;
-  }
   
   .works_item:nth-child(n+4){
     margin-top: 80px;
