@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+  font-family: 'Lato'
+}
+
 .is_raleway {
   font-family: 'Raleway';
 }
@@ -10,11 +14,13 @@ a {
 
 .wrapper {
   width: 100%;
+  overflow: hidden;
 }
 
 .inner {
   max-width: 1100px; 
   margin: 0 auto;
+
 }
 
 .header {
@@ -64,7 +70,6 @@ a {
 }
 
 .theme_inner {
-  box-sizing: border-box;
   text-align: center;
 }
 
@@ -94,7 +99,7 @@ a {
   color: #fff;
   vertical-align: top;
   text-align: center;
-  width: 500px;
+
 }
 
 .right_text_top {
@@ -150,8 +155,8 @@ a {
 
 .mail_text  {
   display: inline-block;
-  width: 570px;
   font-size: 20px;
+  word-break: break-all;
 }
 
 .mail_btn {
@@ -236,7 +241,7 @@ a {
 ------------------------------ */
 @media screen and (max-width:766px) {
   .inner {
-    width: 97%;
+    max-width: 97%;
   }
 
   .contact_btn {
@@ -250,7 +255,7 @@ a {
     border: 1px solid #ddd;
   }
 
-  .humberger span {
+  .berger_border {
     height: 3px;/*線の太さ*/
     width: 30px;/*長さ*/
     background: #ddd;
@@ -259,7 +264,7 @@ a {
     margin-bottom: 3px;
   }
 
-  .humberger span:last-child {
+  .berger_border:last-child {
     margin-bottom: 0;
   }
     
@@ -267,7 +272,7 @@ a {
     padding: 160px 0 130px;
   }
 
-  .theme_inner h1 {
+  .theme_title {
     font-size: 80px;
   }
   
@@ -278,11 +283,12 @@ a {
   .about_inner {
     display: block;
     text-align: center;
-  }
+  }   
 
   .right_text {
-    margin: 20px auto 0;
+    margin-top: 20px;
   }
+
 
   .works_items {
     text-align: center;
@@ -342,8 +348,10 @@ a {
 /* 767px〜1199px：タブレット
 ------------------------------ */
 @media screen and (min-width:767px) and (max-width: 1199px) {
+  
+  
   .inner {
-    width: 97%;
+    max-width: 97%;
   }
 
   .about {
@@ -408,4 +416,8 @@ a {
 ------------------------------ */
 @media screen and (min-width:1200px) {
   
+  .right_text {
+    margin-left: 100px;
+  }
+
 }
