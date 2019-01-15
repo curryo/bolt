@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body {
+.is_raleway {
   font-family: 'Raleway';
 }
 
@@ -13,7 +13,7 @@ a {
 }
 
 .inner {
-  width: 1100px;
+  max-width: 1100px; 
   margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@ a {
 }
 
 .bolt {
-  color: #f2f2f2;
+  color: #333;
 }
 
 .btn {
@@ -54,6 +54,10 @@ a {
   display: none;
 }
 
+.main {
+  margin-top: 70px;
+}
+
 .theme {
   background-color: #f2f2f2;
   padding: 250px 0;
@@ -64,13 +68,13 @@ a {
   text-align: center;
 }
 
-.theme_inner h1 {
+.theme_title {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
 }
 
-.theme_inner p {
+.theme_nav {
   font-size: 30px;
   margin-top: 20px;
   color: #c0c0c0;
@@ -114,7 +118,6 @@ a {
 }
 
 .works_items {
-  text-align: center;
   margin-top: 40px;
   font-size: 0;
 }
@@ -147,7 +150,7 @@ a {
 
 .mail_text  {
   display: inline-block;
-  width: 500px;
+  width: 570px;
   font-size: 20px;
 }
 
@@ -281,6 +284,10 @@ a {
     margin: 20px auto 0;
   }
 
+  .works_items {
+    text-align: center;
+  }
+
   .works_item {
     display: block;
     margin: 0 auto;
@@ -352,6 +359,9 @@ a {
     margin: 20px auto 0;
   }
 
+  .works_items {
+    text-align: center;
+  }
 
   .works_item {
     display: block;
